@@ -1,0 +1,55 @@
+.navbar-expand-lg {
+  background-color: #2C3E50;
+  color: white;
+}
+
+#logoFreeBook {
+  width: 30px;
+  color: white !important;
+}
+
+
+.nav-link {
+  color: #EDEDED !important;
+}
+
+img#login-iconNav {
+  width: 20px;
+  margin-right: 3px;
+}
+
+.container-fluid {
+  color: white;
+}  
+
+.btn {
+  position: absolute;
+  right: 0;
+  outline: none;
+}
+
+form {
+position: relative; 
+width: 400px;
+}
+
+.categoria a{
+  text-decoration: none;
+  color: #2C3E50;
+  transition: .5s;
+}
+
+.categoria a:hover {
+  color: #A7A7A7;
+}
+
+h2 {
+  color:#2C3E50;
+}
+
+
+
+body {
+  background-color: #F9F9F9;
+}
+
