@@ -1,3 +1,7 @@
+* {
+   font-family: 'Lora', serif;
+  }
+
 .navbar-expand-lg {
   background-color: #2C3E50;
   color: white;
@@ -37,6 +41,15 @@ width: 400px;
   text-decoration: none;
   color: #2C3E50;
   transition: .5s;
+}
+li > a {
+  text-decoration: none;
+  color:#2C3E50;
+  transition: .5s;
+}
+
+li > a:hover {
+  color:#A7A7A7;
 }
 
 .categoria a:hover {
