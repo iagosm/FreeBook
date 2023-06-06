@@ -66,3 +66,28 @@ body {
   background-color: #F9F9F9;
 }
 
+
+
+.img-card {
+  width: 130px;
+  height: 180px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top:10px; 
+}
+
+.card-container-img {
+  min-width: 18.7rem;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.card-text {
+  margin-top: 6px;
+  font-size: 12px;
+}
