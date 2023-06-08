@@ -3,7 +3,7 @@
   }
 
 .navbar-expand-lg {
-  background-color: #2C3E50;
+  background-color: #EC5E63;
   color: white;
 }
 
@@ -37,33 +37,25 @@ position: relative;
 width: 400px;
 }
 
-.categoria a{
-  text-decoration: none;
-  color: #2C3E50;
-  transition: .5s;
-}
 li > a {
   text-decoration: none;
-  color:#2C3E50;
+  color:#71625D;
   transition: .5s;
 }
 
 li > a:hover {
-  color:#A7A7A7;
+  color:#8F82B6;
 }
 
-.categoria a:hover {
-  color: #A7A7A7;
-}
 
 h2 {
-  color:#2C3E50;
+  color:#EC5E63;
 }
 
 
 
 body {
-  background-color: #F9F9F9;
+  background-color: #FCF8F5;
 }
 
 
@@ -130,6 +122,68 @@ body {
 
 .ver-mais-livros {
   text-decoration: none;
-  color: #2C3E50;
+  color: #2E2E2E;
   font-size: 17px;
+  margin-top: 3.125rem;
+  margin-right: 50px;
+}
+
+
+/* card */
+.container-card {
+  position: relative;
+  width: 240px;
+  height: 335px;
+}
+
+.bg-card {
+  background-color: #F4F4F4;
+  width: 239px;
+  height: 189px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  position: relative;
+}
+
+.img-card {
+  width: 120px;
+  height: 180px;
+  border-radius: 4px;
+  position: absolute;
+  top: -20px;
+  left: 56px;
+}
+
+.img-card img {
+  border-radius: 4px;
+  filter: drop-shadow(-5px 6px 9px rgba(0, 0, 0, 0.16));
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.span-titulo {
+  color: #EC5E63;
+  font-size: 24px;
+  line-height: 36px; 
+  margin-top:20px
+}
+
+.span-autor {
+  color: #938783;
+  font-size: 15px;
+  line-height: 17px
+}
+
+.btn-baixar{
+  color: white;
+  text-decoration: none;
+  background-color: #EC5E63;
+  margin-top: 20px;
+  padding: 10px 0px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
 }

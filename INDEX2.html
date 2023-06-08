@@ -12,6 +12,11 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <title>FreeBook</title>
 </head>
+<style>
+  body {
+    background-color: #CCC;
+  }
+</style>
 <body>
 <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
   <div class="card" style="width: 18.86rem;height:25rem;box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);border: 1px solid #54697e6e;">
@@ -34,31 +39,87 @@
   </div>
 </div>
 
-span-editora {
+<br><br>
+<div style="display: flex;"></div>
 
+
+<div class="container-card" style="position: relative;width: 240px;height: 335px;">
+  <div class="bg-card" style="background-color: #F4F4F4;
+  width: 239px;
+  height: 189px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  position: relative;">
+  </div>
+  <div>
+    <img style="    width: 120px;
+    height: 180px;
+    border-radius: 4px;
+    position: absolute;
+    top: -20px;
+    left: 56px;" src="assets/D_NQ_NP_617917-MLB32140972589_092019-O.jpg" alt="">
+  </div>
+  <div style="display: flex;flex-direction: column;">
+    <span style="color: #EC5E63;font-size: 24px;line-height: 36px; margin-top:20px">Fora de Circuito</span>
+    <span style="color: #938783;font-size: 15px;line-height: 17px;">de Autor Lhogas</span>
+  </div>
+  <a href="#" style="color: white; text-decoration: none; background-color: #EC5E63;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0px;
+    border-radius: 6px;">Baixar</a></di>
+</div>
+.container-card {
+  position: relative;
+  width: 240px;
+  height: 335px;
 }
-.editara-card {
+
+.bg-card {
+  background-color: #F4F4F4;
+  width: 239px;
+  height: 189px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  position: relative;
+}
+
+.img-card {
+  width: 120px;
+  height: 180px;
+  border-radius: 4px;
   position: absolute;
-  left: 0;
-  right: 0;
-  transform: translateY(-50%);
-  text-align: center;
-  background-color: #7F7F7F;
-  color: white;
+  top: -20px;
+  left: 56px;
 }
 
-.btn-visitar-livro {
-  width: 150px;
+.info-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.span-titulo {
+  color: #EC5E63;
+  font-size: 24px;
+  line-height: 36px; 
+  margin-top:20px
+}
+
+.span-autor {
+  color: #938783;
+  font-size: 15px;
+  line-height: 17px
+}
+
+.btn-baixar a{
+  background-color: #EC5E63;
   text-align: center;
-  background-color: #cecece;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  border-radius: 3px;
-  padding: 8px 4px 8px 4px;width: 150px;
-  text-align: center;
-  background-color: red;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  border-radius: 3px;
-  padding: 8px 4px 8px 4px;
+  margin-top: 20px;
+  padding: 10px 0px;
+  border-radius: 6px;
+}
+
+.btn-baixar a{
+  color: white;
+   text-decoration: none;
 }
