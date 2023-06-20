@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <title>FreeBook</title>
@@ -57,8 +58,8 @@
     </header>
     <div class="container-fluid mt-5 ms-3">
       <div class="row">
-        <h2>Fora de Circuito - Titulo do Livro</h2>
-        <div class="col-md-7 mt-2">
+        <h2 style="margin-left:2rem;">Fora de Circuito - Titulo do Livro</h2>
+        <div class="col-md-7 mt-2" style="margin-left: 2rem;">
           <span  class="info-book mt-2">Descrição</span>
           <p class="descricao-book" >It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
@@ -78,7 +79,7 @@
             <p class="info-book">Nota: <span>4.8<img class="starsvg" src="../assets/star.svg" alt=""></span></p>
           </div>
         </div>
-        <div class="col-md-4 d-flex justify-content-center mt-2 ms-3">
+        <div class="col-md-4 d-flex justify-content-center mt-2">
             <div class="containerCard">
               <div class="bgCard">
               </div>
@@ -92,9 +93,9 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid mt-5 ms-3">
+    <div class="container mt-5" style="max-width: 800px;">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-12">
           <h2 >Comentários e Notas <img src="../assets/avaliacao.svg" alt=""></h2>
           <div class="container-comentario">
             <div class="container-user">
@@ -153,19 +154,23 @@
           </div>
           <form action="" class="mt-5">
             <h3>Adicione um comentário!</h3>
-            <div class="form-floating d-flex">
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-              <label for="floatingTextarea">Comentario</label>
-              <button type="submit" class="">Adicionar</button>
+            <div class="container-star-container">
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="form-floating">
+              <label for="floatingTextarea">Digite um comentario</label>
+              <textarea class="form-control comentarioBook" style="max-width: 100%;"></textarea>
+              <button type="submit" class="btnComentarioAdd">Adicionar</button>
             </div>
           </form>
         </div>
-        <div class="col-md-5">
-          <img class="img-avaliacao" src="../assets/coments.svg" alt="">
-        </div>
       </div>
     </div>       
-    <div class="container-fluid mb-5">
+    <div class="container-fluid mb-5 mt-5">
         <div class="row" style="margin-left: 5rem; margin-bottom: 5rem;">
           <h3 class="section-titulo mt-2">Algumas Opções</h3>
           <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
