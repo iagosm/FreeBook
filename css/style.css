@@ -33,12 +33,12 @@ img#login-iconNav {
 
 .c-img {
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   filter: brightness(0.6);
 }
 
 .c-item {
-  height: 480px;
+  height: 500px;
 }
 
 .carousel-inner {
