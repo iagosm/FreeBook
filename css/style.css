@@ -1,5 +1,6 @@
 * {
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -29,6 +30,20 @@ img#login-iconNav {
 .container-fluid {
   color: white;
 }  
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.c-item {
+  height: 480px;
+}
+
+.carousel-inner {
+  border-radius: 8px;
+}
 
 .btn {
   position: absolute;
@@ -239,7 +254,7 @@ textarea {
 
 .contato-aviao1{
   position: absolute;
-  left: 24rem;
+  left: 22rem;
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
@@ -538,7 +553,7 @@ footer {
   background-color: #F17C81;
 }
 
-form {
+.form-comentario {
   width: 100%;
 }
 
