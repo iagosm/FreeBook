@@ -41,10 +41,6 @@ img#login-iconNav {
   height: 500px;
 }
 
-.carousel-inner {
-  border-radius: 8px;
-}
-
 .btn {
   position: absolute;
   right: 0;
@@ -254,7 +250,7 @@ textarea {
 
 .contato-aviao1{
   position: absolute;
-  left: 30rem;
+  left: 27rem;
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
@@ -571,4 +567,110 @@ footer {
 
 .fa-star:hover {
   color: #FFBC10;
+}
+
+/* Tela login */
+
+.logo-login {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.img-login {
+  width: 100px;
+  height: 100px;
+}
+
+.link-login {
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #EC5E63;
+}
+
+.body-cad-login {
+  display: flex;
+  background-color: #EC5E63;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.container-login {
+  display: flex;
+  margin: auto;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  width: 1200px;
+  height: 800px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.item-login {
+  margin: auto;
+}
+
+.item-login h2, .item-login p {
+  color: #BDA79D;
+  text-align: center;
+}
+
+.item-login p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.input-email, .input-senha {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+  color: #BDA79D;
+}
+
+.input-senha {
+  margin-top: 5px;
+}
+
+.input-email input, .input-senha input {
+  width: 440px;
+  height: 50px;
+  color: #FCFCFC;
+  border: 1px solid #F3F3F3;
+  border-radius: 6px;
+}
+
+#btnLogin {
+  margin-top: 50px;
+  width: 440px;
+  height: 60px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  background-color: #EC5E63;
+  border: 1px solid transparent;
+  transition: .5s;
+}
+
+#btnLogin:hover {
+  background-color: #F17C81;
+}
+
+.linkCad {
+  color: #EC5E63;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.spanCad {
+  color: #BDA79D;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
 }
