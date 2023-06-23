@@ -574,7 +574,7 @@ footer {
 .logo-login {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .img-login {
@@ -638,7 +638,7 @@ footer {
 
 .item-login p {
   font-size: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .input-email, .input-senha {
@@ -656,8 +656,8 @@ footer {
 .input-email input, .input-senha input {
   width: 440px;
   height: 50px;
-  color: #FCFCFC;
-  border: 1px solid #F3F3F3;
+  color: #2C3E50;
+  border: 1px solid #D8D8D8;
   border-radius: 6px;
 }
 
@@ -691,4 +691,65 @@ footer {
   font-size: 18px;
   text-align: center;
   margin-top: 20px;
+}
+
+/* Pagina de Cadastro de usuario */
+
+#btnCad {
+  margin-top: 30px;
+  width: 440px;
+  height: 60px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  background-color: #EC5E63;
+  border: 1px solid transparent;
+  transition: .5s;
+}
+
+#btnCad:hover {
+  background-color: #F17C81;
+}
+
+.linklogin {
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #EC5E63;
+}
+
+
+.logo-cad {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.input-Cadsenha input, .input-Consenha input {
+  width: 220px;
+  height: 50px;
+  color: #2C3E50;
+  border: 1px solid #D8D8D8;
+  border-radius: 6px;
+}
+
+.input-Cadsenha, .input-Consenha {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+  color: #BDA79D;
+}
+
+.container-senha {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.mail-cad {
+  margin-bottom: 10px;
 }
