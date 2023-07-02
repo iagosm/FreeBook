@@ -1,0 +1,1 @@
+-- Banco utilizado para o projeto FreeBook.
