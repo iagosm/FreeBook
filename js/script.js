@@ -14,13 +14,13 @@ var redimensionar = $('#preview').croppie({
 
 $('#img-card-user').on('change',function(){
   // Ler de forma assincrona os arquivos
+  $('#preview').css('display', 'block');
+  $('#Btn-img').css('display', 'block');
   var reader = new FileReader();
 
   reader.onload = function(e) {
-    console.log(e)
     redimensionar.croppie('bind', {
       url: e.target.result
-      
     });
   }
 
@@ -28,7 +28,8 @@ $('#img-card-user').on('change',function(){
   reader.readAsDataURL(this.files[0])
 });
 
-$('#btnCadUser').on('click', function(){
+$('#Btn-img').on('click', function(){
+  
   redimensionar.croppie('result', {
     type: 'canvas',
     size: 'viewport'
@@ -40,6 +41,9 @@ $('#btnCadUser').on('click', function(){
         "imagem" : img
       }
     })
+    console.log(img)
+    $('#preview').css('display', 'none');
+    $('#Btn-img').css('display', 'none');
     $('.img-cad-user').attr("src", img);
   });
 })
