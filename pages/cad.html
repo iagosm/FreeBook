@@ -10,6 +10,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.css">
   <title>Login</title>
 </head>
 <body class="body-cad-login">
@@ -22,39 +23,43 @@
         <a class="link-login" href="#"><img class="img-login" src="../assets/book-login.svg" alt="Logo FreeBook"> FreeBook</a>
       </div>
       <p>Faça o cadastro para acessar a plataforma</p>
-      <form action="" class="form-usercad">
-        <div>
-          <img src="../assets/user-cad.png" alt="">
-          <p class="text-start">Clique na imagem para adicionar a sua foto.</p>
+      <form action="#" class="form-usercad">
+        <div class="d-flex flex-column ms-4 mb-3">
+          <div id="preview"></div>
+          <img class="img-cad-user" src="../assets/user-cad.png" alt="">
+          <input type="file" id="img-card-user">
         </div>
         <div class="container-inputs-cad-user">
           <div class="div-group">
             <div class="input-group group-cad">
               <label for="nome">Nome</label>
-              <input type="password" class="form-control input-cad-user no-outline" name="nome" autocomplete="off">
+              <input type="password" class="input-cad-user" name="nome" autocomplete="off">
             </div>
             <div class="input-group group-cad">
               <label for="email">E-mail</label>
-              <input type="email" class="form-control input-cad-user no-outline" name="email" autocomplete="off">
+              <input type="email" class="input-cad-user" name="email" autocomplete="off">
             </div>
           </div>
           <div class="div-group ml-3">
             <div class="input-group group-cad">
               <label for="senha">Senha</label>
-              <input type="password" class="form-control input-cad-user no-outline" name="senha" autocomplete="off">
+              <input type="password" class="input-cad-user" name="senha" autocomplete="off">
             </div>
             <div class="input-group group-cad">
               <label for="confsenha">Senha</label>
-              <input type="password" class="form-control input-cad-user no-outline" name="confsenha" autocomplete="off">
+              <input type="password" class="input-cad-user" name="confsenha" autocomplete="off">
             </div>
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <button type="submit" id="btnCad">Enviar</button>
+          <button type="submit" id="btnCadUser">Enviar</button>
         </div>
       </form>
       <p class="spanCad">Possui conta? <a class="linklogin" href="login.html">Acesse</a></p>
     </div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
+  <script src="../js/script.js"></script>
 </body>
 </html>
