@@ -229,7 +229,7 @@ body {
 
 .form-control {
   background-color: #F4F4F4;
-  border: 1px solid #EC5E63;
+  border: 1px solid #F4F4F4;
   padding: 10px;
   resize: none;
   font-size: 18px;
@@ -592,7 +592,7 @@ footer {
 
 .body-cad-login {
   display: flex;
-  background-color: #EC5E63;
+  background-color: #FCF8F5;
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -728,20 +728,44 @@ footer {
 }
 
 
-.input-Cadsenha input, .input-Consenha input {
-  width: 220px;
-  height: 50px;
-  color: #2C3E50;
-  border: 1px solid #D8D8D8;
-  border-radius: 6px;
+.form-usercad {
+  position: relative;
+  min-width: 900px;
 }
 
-.input-Cadsenha, .input-Consenha {
+.group-cad {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+}
+
+.group-cad input {
+  width: 400px !important;
+  border-radius: 6px !important;
+  outline: 0 !important;
+  background-color: white;
+}
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border:1px solid #F4F4F4;
+}
+
+.group-cad label {
   font-size: 18px;
   color: #BDA79D;
+}
+
+.div-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container-inputs-cad-user {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.875rem;
 }
 
 .container-senha {
@@ -753,3 +777,4 @@ footer {
 .mail-cad {
   margin-bottom: 10px;
 }
+

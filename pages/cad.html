@@ -21,29 +21,37 @@
       <div class="logo-cad">
         <a class="link-login" href="#"><img class="img-login" src="../assets/book-login.svg" alt="Logo FreeBook"> FreeBook</a>
       </div>
-      <h2>Bem vindo</h2>
       <p>Faça o cadastro para acessar a plataforma</p>
-      <form action="">
-        <div class="input-email">
-          <label for="nome">Nome</label>
-          <input type="text" name="nome" autocomplete="off">
+      <form action="" class="form-usercad">
+        <div>
+          <img src="../assets/user-cad.png" alt="">
+          <p class="text-start">Clique na imagem para adicionar a sua foto.</p>
         </div>
-        <div class="input-email">
-          <label for="email">E-mail</label>
-          <input type="text" name="email" autocomplete="off">
-        </div>
-        <div class="container-senha">
-          <div class="input-Cadsenha">
-            <label for="senha">Senha</label>
-            <input type="password" name="senha" autocomplete="off">
+        <div class="container-inputs-cad-user">
+          <div class="div-group">
+            <div class="input-group group-cad">
+              <label for="nome">Nome</label>
+              <input type="password" class="form-control input-cad-user no-outline" name="nome" autocomplete="off">
+            </div>
+            <div class="input-group group-cad">
+              <label for="email">E-mail</label>
+              <input type="email" class="form-control input-cad-user no-outline" name="email" autocomplete="off">
+            </div>
           </div>
-          <div class="input-Consenha">
-            <label for="senha">Confirmar Senha</label>
-            <input type="password" name="confirmasenha" autocomplete="off">
+          <div class="div-group ml-3">
+            <div class="input-group group-cad">
+              <label for="senha">Senha</label>
+              <input type="password" class="form-control input-cad-user no-outline" name="senha" autocomplete="off">
+            </div>
+            <div class="input-group group-cad">
+              <label for="confsenha">Senha</label>
+              <input type="password" class="form-control input-cad-user no-outline" name="confsenha" autocomplete="off">
+            </div>
           </div>
         </div>
-        
-        <button type="submit" id="btnCad">Enviar</button>
+        <div class="d-flex justify-content-center">
+          <button type="submit" id="btnCad">Enviar</button>
+        </div>
       </form>
       <p class="spanCad">Possui conta? <a class="linklogin" href="login.html">Acesse</a></p>
     </div>
